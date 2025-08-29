@@ -4,7 +4,10 @@
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Mete marcha nesse projeto!");
+            // Testado a classe Receita
+            Receita r1 = new Receita("Cafézinho", 23);
+
+            Console.WriteLine(r1.Relatorio());
         }
     }
 }
